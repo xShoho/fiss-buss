@@ -23,7 +23,7 @@ In TDD however we create test for the functionality and then we write function t
 This approach makes The programmer to consider what the function has to do before programming
 
 ## FissBuss Problem
-In FissBuss problem we want the program to return Null if number is lower than 0, given number if its not divisible by 3 or 5, if number is divisible by 3 we want to return Fiss, if number is divisible by 5 we want to return Buss, if number is divisible by 3 and 5 we want to return FissBuss.
+In FissBuss problem we want the program to return Null if number is lower than 0, return given number if its not divisible by 3 or 5, if number is divisible by 3 we want to return Fiss, if number is divisible by 5 we want to return Buss, if number is divisible by 3 and 5 we want to return FissBuss.
 
 ## Unit Tests framework for Ruby
 To solve this problem using TDD approach I used RSpec framework
