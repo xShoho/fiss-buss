@@ -11,7 +11,7 @@
 Test-Driven Development is programming approach to write tests before functionalities.
 
 ## TDD vs Unit Tests
-This two terms are often used alternately. This is coused by misunderstanding this two terms.
+This two terms are often used alternately. This is caused by misunderstanding this two terms.
 
 ### Unit Tests
 In Unit Tests we first create functionalities and then We check if they are working properly through writing Tests.
