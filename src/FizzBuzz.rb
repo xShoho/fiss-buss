@@ -1,4 +1,4 @@
-class FissBuss
+class FizzBuzz
 
     def process(num)
         if num <= 0
@@ -6,15 +6,15 @@ class FissBuss
         end
 
         if num % 3 == 0 && num % 5 == 0
-            return 'FissBuss'
+            return 'FizzBuzz'
         end
 
         if num % 3 == 0
-            return 'Fiss'
+            return 'Fizz'
         end
 
         if num % 5 ==0
-            return 'Buss'
+            return 'Buzz'
         end
 
         return num

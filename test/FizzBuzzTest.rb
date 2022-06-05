@@ -1,6 +1,6 @@
-require '../src/FissBuss.rb'
+require '../src/FizzBuzz.rb'
 
-describe FissBuss do
+describe FizzBuzz do
     
     describe '#process' do
         context 'given 0' do
@@ -22,32 +22,32 @@ describe FissBuss do
         end
 
         context 'given 3' do
-            it 'returns Fiss' do
-                expect(subject.process(3)).to eql('Fiss')
+            it 'returns Fizz' do
+                expect(subject.process(3)).to eql('Fizz')
             end
         end
 
         context 'given 6' do
-            it 'returns Fiss' do
-                expect(subject.process(3)).to eql('Fiss')
+            it 'returns Fizz' do
+                expect(subject.process(3)).to eql('Fizz')
             end
         end
 
         context 'given 5' do
-            it 'returns Buss' do
-                expect(subject.process(5)).to eql('Buss')
+            it 'returns Buzz' do
+                expect(subject.process(5)).to eql('Buzz')
             end
         end
 
         context 'given 10' do
-            it 'returns Buss' do
-                expect(subject.process(5)).to eql('Buss')
+            it 'returns Buzz' do
+                expect(subject.process(5)).to eql('Buzz')
             end
         end
 
         context 'given 15' do
-            it 'returns FissBuss' do
-                expect(subject.process(15)).to eql('FissBuss')
+            it 'returns FizzBuzz' do
+                expect(subject.process(15)).to eql('FizzBuzz')
             end
         end
     end
